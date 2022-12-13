@@ -12,4 +12,4 @@ Each password generation is unique and will always feature at least one of each 
 
 ## Screenshots
 
-![Alt text](assets/images/Screenshot.png)
+![Alt text](../assets/images/Screenshot.png)
