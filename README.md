@@ -7,9 +7,9 @@ Each password generation is unique and will always feature at least one of each 
 
 ## Links
 
-- [Website](https://github.com/NTumminaro/Fully-Randomized-PassGen)
+- [Website](https://ntumminaro.github.io/Fully-Randomized-PassGen/)
 - [Github Repo](https://github.com/NTumminaro/Fully-Randomized-PassGen)
 
 ## Screenshots
 
-![Alt text](assets/images/Screenshot.png)
+![Alt text](../assets/images/Screenshot.png)
