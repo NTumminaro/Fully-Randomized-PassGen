@@ -27,7 +27,7 @@ function writePassword() {
     var uppercase = document.querySelector("#uppercase");
     var numbers = document.querySelector("#numbers");
     var special = document.querySelector("#special");
-    
+
     // Resets the Gates //////////////////////////////////////////////////////////////////////////////////////////////
     var check1 = false;
     var check2 = false;
@@ -56,7 +56,6 @@ function writePassword() {
       for (var i = 0; i < passLength; i++) {
           var rando1 = Math.floor(Math.random() * possibleChoices.length);
           var rando2 = Math.floor(Math.random() * possibleChoices[rando1].length);
-          console.log(rando1);
 
         // Series of gates to assure each chosen character type gets selected once //////////////////////////////////
         if (check1 === false && rando1 !== 0) {
@@ -66,7 +65,6 @@ function writePassword() {
           rando2 = Math.floor(Math.random() * possibleChoices[rando1].length);
           if (possibleChoices[rando1][rando2] === undefined) {
             i --;
-            console.log("booty");
             continue;      
         } else {
           password += possibleChoices[rando1][rando2];
@@ -81,7 +79,6 @@ function writePassword() {
           rando2 = Math.floor(Math.random() * possibleChoices[rando1].length);
           if (possibleChoices[rando1][rando2] === undefined) {
             i --;
-            console.log("booty");
             continue;      
         } else {
           password += possibleChoices[rando1][rando2];
@@ -96,7 +93,6 @@ function writePassword() {
           rando2 = Math.floor(Math.random() * possibleChoices[rando1].length);
           if (possibleChoices[rando1][rando2] === undefined) {
             i --;
-            console.log("booty");
             continue;      
         } else {
           password += possibleChoices[rando1][rando2];
@@ -111,7 +107,6 @@ function writePassword() {
           rando2 = Math.floor(Math.random() * possibleChoices[rando1].length);
           if (possibleChoices[rando1][rando2] === undefined) {
             i --;
-            console.log("booty");
             continue;      
         } else {
           password += possibleChoices[rando1][rando2];
@@ -120,7 +115,6 @@ function writePassword() {
 
         if (possibleChoices[rando1][rando2] === undefined) {
             i --;
-            console.log("booty");
             continue;      
         } else {
           password += possibleChoices[rando1][rando2];
@@ -130,7 +124,6 @@ function writePassword() {
   // Runs the function and writes the password ///////////////////////////////////////////////////////////////////////
   generatePassword();
   passwordText.value = password;
-  console.table(possibleChoices);
 }
 
 // Add event listener to generate button ////////////////////////////////////////////////////////////////////////////
